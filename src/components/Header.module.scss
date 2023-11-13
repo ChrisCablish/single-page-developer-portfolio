@@ -1,0 +1,30 @@
+@import "../variables.scss";
+
+.header {
+  background-color: $dark-grey !important;
+  color: $white;
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem;
+
+  span {
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2rem; /* 100% */
+    letter-spacing: -0.02775rem;
+  }
+
+  .linkContainer {
+    display: flex;
+    gap: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .header {
+    flex-direction: column;
+    align-items: center;
+    gap: 1.25rem;
+  }
+}
