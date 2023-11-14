@@ -6,28 +6,8 @@ import FrontEndMentor from "../assets/images/icon-frontend-mentor.svg";
 import linkedIn from "../assets/images/icon-linkedin.svg";
 import styles from "./Header.module.scss";
 
-function BasicExample() {
+function Header() {
   return (
-    // <Navbar expand="lg" className={`bg-body-tertiary ${styles.darkBackground}`}>
-    //   <Container>
-    //     <Navbar.Brand href="#home">chriscablish</Navbar.Brand>
-    //     <Navbar.Toggle aria-controls="basic-navbar-nav" />
-    //     <Navbar.Collapse id="basic-navbar-nav">
-    //       <Nav className="me-auto">
-    //         <Nav.Link href="https://github.com/ChrisCablish">
-    //           <img src={gitHub} alt=""></img>
-    //         </Nav.Link>
-    //         <Nav.Link href="#https://www.frontendmentor.io/profile/ChrisCablish">
-    //           <img src={FrontEndMentor} alt=""></img>
-    //         </Nav.Link>
-    //         <Nav.Link href="https://www.linkedin.com/in/chris-cablish-a947481b6/">
-    //           <img src={linkedIn} alt=""></img>
-    //         </Nav.Link>
-    //       </Nav>
-    //     </Navbar.Collapse>
-    //   </Container>
-    // </Navbar>
-
     <header className={styles.header}>
       <span>chriscablish</span>
       <div className={styles.linkContainer}>
@@ -53,4 +33,4 @@ function BasicExample() {
   );
 }
 
-export default BasicExample;
+export default Header;
