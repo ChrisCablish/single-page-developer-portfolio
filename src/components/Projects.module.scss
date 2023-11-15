@@ -1,0 +1,41 @@
+@import "../variables.scss";
+
+.projectSection {
+  width: 100%;
+  color: $white;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.projectImage {
+  // display: flex;
+  // overflow: hidden;
+}
+
+.image {
+  object-fit: cover;
+  height: 15rem;
+  width: 21rem;
+  border-radius: 1rem;
+}
+
+//tablet
+@media screen and (min-width: 576px) {
+  .column {
+  }
+}
+
+//desktop
+@media screen and (min-width: 768px) {
+}
+
+//large desktop
+@media screen and (min-width: 992px) {
+  .image {
+    object-fit: cover;
+    height: 25rem;
+    width: 35rem;
+    border-radius: 1rem;
+  }
+}

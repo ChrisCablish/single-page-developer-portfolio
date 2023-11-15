@@ -1,0 +1,32 @@
+@import "../variables.scss";
+
+h1 {
+  color: $white;
+}
+
+.column {
+  color: $white;
+  border-left: 1px solid $green;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+//tablet
+@media screen and (min-width: 576px) {
+}
+
+//desktop
+@media screen and (min-width: 768px) {
+}
+
+//large desktop
+@media screen and (min-width: 992px) {
+  .margin {
+    padding: 0 8rem 0 8rem;
+  }
+}

@@ -8,28 +8,30 @@ import styles from "./Header.module.scss";
 
 function Header() {
   return (
-    <header className={styles.header}>
-      <span>chriscablish</span>
-      <div className={styles.linkContainer}>
-        <a href="https://github.com/ChrisCablish" target="_blank">
-          <img src={gitHub} alt=""></img>
-        </a>
+    <Container>
+      <header className={styles.header}>
+        <span>chriscablish</span>
+        <div className={styles.linkContainer}>
+          <a href="https://github.com/ChrisCablish" target="_blank">
+            <img src={gitHub} alt=""></img>
+          </a>
 
-        <a
-          href="https://www.frontendmentor.io/profile/ChrisCablish"
-          target="_blank"
-        >
-          <img src={FrontEndMentor} alt=""></img>
-        </a>
+          <a
+            href="https://www.frontendmentor.io/profile/ChrisCablish"
+            target="_blank"
+          >
+            <img src={FrontEndMentor} alt=""></img>
+          </a>
 
-        <a
-          href="https://www.linkedin.com/in/chris-cablish-a947481b6/"
-          target="_blank"
-        >
-          <img src={linkedIn} alt=""></img>
-        </a>
-      </div>
-    </header>
+          <a
+            href="https://www.linkedin.com/in/chris-cablish-a947481b6/"
+            target="_blank"
+          >
+            <img src={linkedIn} alt=""></img>
+          </a>
+        </div>
+      </header>
+    </Container>
   );
 }
 

@@ -21,10 +21,9 @@
   }
 
   .heroText {
-    padding: 0 1rem 0 1rem;
     z-index: 2;
     text-align: center;
-    padding-bottom: 4rem;
+
     h1 {
       font-size: 2.5rem;
       font-style: normal;
@@ -72,21 +71,19 @@
   }
 }
 
-//tablet and desktop
-@media screen and (min-width: 480px) {
+//tablet
+@media screen and (min-width: 576px) {
   .hero {
     gap: 0;
-    padding: 0 2rem 0 2rem;
     flex-direction: row;
     max-width: 100%;
 
     .imgContainer {
       position: absolute;
-      right: 0px;
+      right: 35px;
       top: 0px;
       width: 20rem;
-      // height: 37rem;
-      height: 45rem;
+      height: 37rem;
       background-position: 57% -5%;
       background-size: 265%;
     }
@@ -116,23 +113,28 @@
       height: 37rem;
     }
   }
+}
 
-  @media screen and (min-width: 1025px) {
-    .hero {
-      padding: 0 10rem 0 10rem;
-      .imgContainer {
-        right: 10rem;
-      }
+//desktop
+@media screen and (min-width: 768px) {
+  .hero {
+    .imgContainer {
+      right: 6rem;
+    }
 
-      .heroText {
-        h1 {
-        }
+    .placeholder {
+      width: 45rem;
+      height: 37rem;
+    }
+  }
+}
 
-        p {
-        }
-      }
-      .placeholder {
-      }
+//large desktop
+@media screen and (min-width: 992px) {
+  .hero {
+    // padding: 0 8rem 0 8rem;
+    .imgContainer {
+      right: 16rem;
     }
   }
 }
