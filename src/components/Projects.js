@@ -9,29 +9,40 @@ function Projects() {
       <Container className={styles.projectsHolder}>
         <Row>
           <Col sm className={styles.column}>
-            <div className={styles.projectImage}>
-              <img className={styles.image} src={projects[0].image}></img>
-            </div>
+            <a href={projects[0].link} target="_blank">
+              <div className={styles.projectImage}>
+                <img className={styles.image} src={projects[0].image}></img>
+              </div>
+            </a>
+
             <p className={styles.title}>{projects[0].title}</p>
           </Col>
           <Col sm>
-            <div className={styles.projectImage}>
-              <img className={styles.image} src={projects[1].image}></img>
-            </div>
+            <a href={projects[1].link} target="_blank">
+              <div className={styles.projectImage}>
+                <img className={styles.image} src={projects[1].image}></img>
+              </div>
+            </a>
+
             <p className={styles.title}>{projects[1].title}</p>
           </Col>
         </Row>
         <Row>
           <Col sm>
-            <div className={styles.projectImage}>
-              <img className={styles.image} src={projects[2].image}></img>
-            </div>
+            <a href={projects[2].link} target="_blank">
+              <div className={styles.projectImage}>
+                <img className={styles.image} src={projects[2].image}></img>
+              </div>
+            </a>
+
             <p className={styles.title}>{projects[2].title}</p>
           </Col>
           <Col sm>
-            <div className={styles.projectImage}>
-              <img className={styles.image} src={projects[3].image}></img>
-            </div>
+            <a href={projects[3].link} target="_blank">
+              <div className={styles.projectImage}>
+                <img className={styles.image} src={projects[3].image}></img>
+              </div>
+            </a>
             <p className={styles.title}>{projects[3].title}</p>
           </Col>
         </Row>

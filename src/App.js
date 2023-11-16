@@ -3,6 +3,7 @@ import Header from "./components/Header";
 import Hero from "./components/Hero";
 import CoreSkills from "./components/CoreSkills";
 import Projects from "./components/Projects";
+import ContactForm from "./components/ContactForm";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Hero className={styles.hero} />
       <CoreSkills />
       <Projects />
+      <ContactForm />
     </div>
   );
 }

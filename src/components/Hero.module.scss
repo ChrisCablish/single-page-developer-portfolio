@@ -17,7 +17,8 @@
     background-position: 57% -5%;
     background-size: 265%;
     background-color: transparent;
-    border-radius: 1rem;
+    border-radius: 2rem;
+    box-shadow: inset 0px -15px 20px $black;
   }
 
   .heroText {
@@ -109,7 +110,7 @@
       }
     }
     .placeholder {
-      width: 40rem;
+      width: 200rem;
       height: 37rem;
     }
   }
@@ -119,11 +120,11 @@
 @media screen and (min-width: 768px) {
   .hero {
     .imgContainer {
-      right: 6rem;
+      // right: 6rem;
     }
 
     .placeholder {
-      width: 45rem;
+      width: 200rem;
       height: 37rem;
     }
   }
@@ -134,7 +135,7 @@
   .hero {
     // padding: 0 8rem 0 8rem;
     .imgContainer {
-      right: 16rem;
+      right: 6rem;
     }
   }
 }
