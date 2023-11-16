@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.dae3264e.css",
+    "main.js": "/static/js/main.62e39108.js",
+    "static/js/787.ea8239e0.chunk.js": "/static/js/787.ea8239e0.chunk.js",
+    "static/media/greyscale-avatar-removebg-preview.png": "/static/media/greyscale-avatar-removebg-preview.2318458115af3a8d58d0.png",
+    "static/media/dictionary.jpg": "/static/media/dictionary.891bd860ce75a1622cad.jpg",
+    "static/media/githubuser.jpg": "/static/media/githubuser.92f63af449d32298ed6e.jpg",
+    "static/media/greyscale-avatar.jpg": "/static/media/greyscale-avatar.a6737039f59fe7da4eb2.jpg",
+    "static/media/agecalc.jpg": "/static/media/agecalc.8605932d8fd2e7efa12b.jpg",
+    "static/media/ttt.jpg": "/static/media/ttt.19e13b8b3547458471e0.jpg",
+    "static/media/icon-github.svg": "/static/media/icon-github.376f746105559084ee856620094454e7.svg",
+    "index.html": "/index.html",
+    "static/media/icon-linkedin.svg": "/static/media/icon-linkedin.299a1d811c6c10d4964a7018ae43228e.svg",
+    "static/media/icon-frontend-mentor.svg": "/static/media/icon-frontend-mentor.4b5f99515736c1a6c8b206e4c73dd048.svg",
+    "static/media/pattern-rings.svg": "/static/media/pattern-rings.e62a24d55bee668faa1f245882fad1b7.svg",
+    "main.dae3264e.css.map": "/static/css/main.dae3264e.css.map",
+    "main.62e39108.js.map": "/static/js/main.62e39108.js.map",
+    "787.ea8239e0.chunk.js.map": "/static/js/787.ea8239e0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dae3264e.css",
+    "static/js/main.62e39108.js"
+  ]
+}
