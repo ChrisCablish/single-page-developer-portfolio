@@ -15,7 +15,17 @@ function Projects() {
               </div>
             </a>
 
-            <p className={styles.title}>{projects[0].title}</p>
+            <p className={styles.title}>
+              {" "}
+              {projects[0].title} -{" "}
+              <a
+                className={styles.codeLink}
+                target="_blank"
+                href={projects[0].code}
+              >
+                View code
+              </a>
+            </p>
           </Col>
           <Col sm>
             <a href={projects[1].link} target="_blank">
@@ -24,7 +34,17 @@ function Projects() {
               </div>
             </a>
 
-            <p className={styles.title}>{projects[1].title}</p>
+            <p className={styles.title}>
+              {" "}
+              {projects[1].title} -{" "}
+              <a
+                className={styles.codeLink}
+                target="_blank"
+                href={projects[1].code}
+              >
+                View code
+              </a>
+            </p>
           </Col>
         </Row>
         <Row>
@@ -35,7 +55,16 @@ function Projects() {
               </div>
             </a>
 
-            <p className={styles.title}>{projects[2].title}</p>
+            <p className={styles.title}>
+              {projects[2].title} -{" "}
+              <a
+                className={styles.codeLink}
+                target="_blank"
+                href={projects[2].code}
+              >
+                View code
+              </a>
+            </p>
           </Col>
           <Col sm>
             <a href={projects[3].link} target="_blank">
@@ -43,7 +72,17 @@ function Projects() {
                 <img className={styles.image} src={projects[3].image}></img>
               </div>
             </a>
-            <p className={styles.title}>{projects[3].title}</p>
+            <p className={styles.title}>
+              {" "}
+              {projects[3].title} -{" "}
+              <a
+                className={styles.codeLink}
+                target="_blank"
+                href={projects[3].code}
+              >
+                View code
+              </a>
+            </p>
           </Col>
         </Row>
       </Container>

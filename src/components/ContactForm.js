@@ -1,26 +1,7 @@
-// import React from "react";
-// import { useForm, ValidationError } from "@formspree/react";
-// import styles from "./ContactForm.module.scss";
-// function ContactForm() {
-//   const [state, handleSubmit] = useForm("maygzbba");
-//   if (state.succeeded) {
-//     return <p>Thanks for joining!</p>;
-//   }
-//   return (
-//     <form onSubmit={handleSubmit} className={styles.form}>
-//       <label htmlFor="email">Email Address</label>
-//       <input id="email" type="email" name="email" />
-//       <ValidationError prefix="Email" field="email" errors={state.errors} />
-//       <textarea id="message" name="message" />
-//       <ValidationError prefix="Message" field="message" errors={state.errors} />
-//       <button type="submit" disabled={state.submitting}>
-//         Submit
-//       </button>
-//     </form>
-//   );
-// }
-
 import React, { useState } from "react";
+import styles from "./ContactForm.module.scss";
+import { Container } from "react-bootstrap";
+import art from "../assets/images/pattern-rings.svg";
 
 function ContactForm() {
   const [state, setState] = useState({
@@ -65,36 +46,59 @@ function ContactForm() {
   };
 
   return (
-    <form
-      onSubmit={handleSubmit}
-      action="https://formspree.io/f/maygzbba"
-      method="POST"
-    >
-      <input
-        type="text"
-        name="name"
-        value={state.name}
-        onChange={handleChange}
-        placeholder="Your Name"
-        required
-      />
-      <input
-        type="email"
-        name="email"
-        value={state.email}
-        onChange={handleChange}
-        placeholder="Your Email"
-        required
-      />
-      <textarea
-        name="message"
-        value={state.message}
-        onChange={handleChange}
-        placeholder="Your Message"
-        required
-      />
-      <button type="submit">Send</button>
-    </form>
+    <Container className={styles.container}>
+      <section className={styles.contactSection}>
+        <div className={styles.textSection}>
+          <h1>[ Contact ]</h1>
+          <p>
+            I'd love to hear from you. Please fill out this form and I will get
+            back to you as soon as possible.
+          </p>
+        </div>
+        <form
+          className={styles.form}
+          id="contact-form"
+          onSubmit={handleSubmit}
+          action="https://formspree.io/f/maygzbba"
+          method="POST"
+        >
+          <input
+            className={styles.field}
+            type="text"
+            name="name"
+            value={state.name}
+            onChange={handleChange}
+            placeholder="Your Name"
+            required
+          />
+
+          <div className={styles.fieldBorder}></div>
+          <input
+            className={styles.field}
+            type="email"
+            name="email"
+            value={state.email}
+            onChange={handleChange}
+            placeholder="Your Email"
+            required
+          />
+          <textarea
+            className={styles.field}
+            name="message"
+            value={state.message}
+            onChange={handleChange}
+            placeholder="Your Message"
+            required
+          />
+          <div className={styles.buttonContainer}>
+            <button type="submit">Send</button>
+          </div>
+        </form>
+        <div className={styles.art}>
+          <img src={art} alt=""></img>
+        </div>
+      </section>
+    </Container>
   );
 }
 

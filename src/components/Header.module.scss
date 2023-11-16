@@ -2,7 +2,6 @@
 
 .header {
   background-color: $black !important;
-  // background-color: transparent !important;
   color: $white;
   display: flex;
   padding: 1.5rem 0 0 0;
@@ -32,22 +31,12 @@
   .header {
     flex-direction: row;
     justify-content: space-between;
-
-    .linkContainer {
-      // padding-right: 5rem; MUTED
-    }
   }
 }
 
 @media screen and (min-width: 768px) {
-  .header {
-    // padding: 2rem 10rem 0 10rem;
-  }
 }
 
 //large desktop
 @media screen and (min-width: 992px) {
-  .header {
-    // padding: 1.5rem 8rem 0 8rem;
-  }
 }

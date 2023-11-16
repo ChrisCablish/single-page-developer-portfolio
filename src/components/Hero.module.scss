@@ -9,6 +9,7 @@
   background-color: $black;
   color: $white;
   font-family: "Space Grotesk", sans-serif;
+  padding-bottom: 1.5rem;
   .imgContainer {
     height: 15rem;
     width: 10rem;
@@ -54,10 +55,11 @@
       font-weight: 700;
       line-height: 1.625rem; /* 162.5% */
       letter-spacing: 0.14288rem;
-      border: 1px solid transparent;
       padding: 8px;
       text-transform: uppercase;
       border: 1px solid $green;
+      text-decoration: none;
+      color: $white;
     }
 
     a:hover {
@@ -120,7 +122,6 @@
 @media screen and (min-width: 768px) {
   .hero {
     .imgContainer {
-      // right: 6rem;
     }
 
     .placeholder {
@@ -133,7 +134,6 @@
 //large desktop
 @media screen and (min-width: 992px) {
   .hero {
-    // padding: 0 8rem 0 8rem;
     .imgContainer {
       right: 6rem;
     }

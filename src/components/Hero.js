@@ -9,22 +9,21 @@ function Hero() {
         <div className={styles.imgContainer}></div>
         <div className={styles.heroText}>
           <h1>
-            Nice to meet you! I'm{" "}
-            <span className={styles.name}>Chris Cablish</span>.
+            Hi there! I'm <span className={styles.name}>Chris Cablish</span>.
           </h1>
           <p>
-            Welcome to my portfolio! I'm a passionate web developer, freshly
-            graduated from LaunchCode's coding course. While my professional
-            experience in the field is just beginning, don't let that fool you.
-            Over the past year, I've dedicated myself to self-study and have
-            completed several intermediate-level projects that showcase my
-            skills and creativity in web development. This site is not only a
-            testament to what I've learned but also a window into my journey and
-            potential. I'm excited to explore opportunities where I can
-            contribute, grow, and make meaningful impacts with my coding
-            abilities. Let's create something amazing together!
+            Welcome to my portfolio! I'm an aspiring developer, freshly
+            graduated from LaunchCode's part-time web dev course. While my
+            professional experience is just beginning, don't let that fool you.
+            Over the past year, I've immersed myself in acquiring new skills and
+            have completed several intermediate-level projects that highlight my
+            ability to integrate new tools and concepts into my workflow
+            quickly. This site serves not only as a testament to my acquired
+            knowledge but also as a showcase of my potential. I'm excited to
+            explore opportunities where I can contribute, grow, and add value by
+            making meaningful impacts with my coding abilities.
           </p>
-          <a>Contact Me</a>
+          <a href="#contact-form">Contact Me</a>
         </div>
         <div className={styles.placeholder}></div>
       </div>

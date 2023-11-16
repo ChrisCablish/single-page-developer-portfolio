@@ -2,4 +2,85 @@
 
 .form {
   color: $white;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding-bottom: 2rem;
+}
+
+.art {
+  display: none;
+}
+
+.field {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid $white;
+  color: $white;
+}
+
+.field:focus {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid $white;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: flex-end;
+}
+
+button {
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.625rem; /* 162.5% */
+  letter-spacing: 0.14288rem;
+  background-color: transparent;
+  color: $white;
+  width: 50%;
+  text-transform: uppercase;
+  border: 1px solid $green;
+  padding: 8px;
+}
+
+button:hover {
+  border: 3px solid $green;
+  padding: 6px;
+  cursor: pointer;
+}
+
+.container {
+}
+
+@media screen and (min-width: 576px) {
+  .container {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .contactSection {
+    display: flex;
+    flex-direction: row;
+    // width: 40%;
+    padding-top: 3rem;
+  }
+
+  .form {
+    width: 60%;
+  }
+
+  .textSection {
+    text-align: left;
+  }
+
+  .art {
+    display: block;
+    position: absolute;
+    transform: translate(0%, 140%);
+  }
 }

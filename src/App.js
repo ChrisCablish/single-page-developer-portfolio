@@ -13,6 +13,8 @@ function App() {
       <CoreSkills />
       <Projects />
       <ContactForm />
+      <Header className={styles.header} />
+      <div className={styles.paddingDiv}></div>
     </div>
   );
 }
