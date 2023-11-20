@@ -15,13 +15,12 @@ function Hero() {
             Welcome to my portfolio! I'm an aspiring developer, freshly
             graduated from LaunchCode's part-time web dev course. While my
             professional experience is just beginning, don't let that fool you.
-            Over the past year, I've immersed myself in acquiring new skills and
-            have completed several intermediate-level projects that highlight my
-            ability to integrate new tools and concepts into my workflow
-            quickly. This site serves not only as a testament to my acquired
-            knowledge but also as a showcase of my potential. I'm excited to
-            explore opportunities where I can contribute, grow, and add value by
-            making meaningful impacts with my coding abilities.
+            Over the past year, I've honed new skills and completed multiple
+            projects, demonstrating my propensity to adapt quickly to new tools
+            and concepts. This site serves not only as a testament to my
+            abilities but also as a showcase of my potential. I am eager to join
+            a team where I can immediately contribute and grow, leveraging my
+            coding skills to make a meaningful impact from day one.
           </p>
           <a href="#contact-form">Contact Me</a>
         </div>
