@@ -2,6 +2,7 @@
   "name": "single-page-developer-portfolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://chriscablish.github.io/single-page-developer-portfolio/",
   "dependencies": {
     "@formspree/react": "^2.5.1",
     "@testing-library/jest-dom": "^5.17.0",
