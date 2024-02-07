@@ -48,7 +48,7 @@ const SkillsAccordion = () => {
 
     <Container className={styles.accordion}>
       <h1 className={styles.header}>[My Skills]</h1>
-      <Accordion defaultActiveKey="0" data-bs-theme="dark">
+      <Accordion data-bs-theme="dark">
         {skillCategories.map((category, index) => (
           <Accordion.Item
             eventKey={`${index}`}
