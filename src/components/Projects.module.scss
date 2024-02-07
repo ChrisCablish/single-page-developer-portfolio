@@ -13,7 +13,7 @@
 }
 
 .image {
-  object-fit: cover;
+  object-fit: contain;
   height: 15rem;
   width: 21rem;
   border-radius: 1rem;
@@ -21,8 +21,6 @@
 
 //tablet
 @media screen and (min-width: 576px) {
-  .column {
-  }
 }
 
 //desktop

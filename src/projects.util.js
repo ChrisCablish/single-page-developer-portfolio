@@ -7,8 +7,8 @@ import MES from "./assets/images/my-project-images/organized_MES.jpg";
 const projects = [
   {
     image: MES,
-    title: "Organized MES",
-    link: "WorkflowManager-env.eba-d2t2geh2.us-east-2.elasticbeanstalk.com",
+    title: "Organized MES (LaunchCode Capstone)",
+    link: "http://WorkflowManager-env.eba-d2t2geh2.us-east-2.elasticbeanstalk.com",
     code: "https://github.com/ChrisCablish/workflow-manager/tree/demo",
   },
   {

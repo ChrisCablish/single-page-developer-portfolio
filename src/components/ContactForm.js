@@ -91,7 +91,9 @@ function ContactForm() {
             required
           />
           <div className={styles.buttonContainer}>
-            <button type="submit">Send</button>
+            <button type="submit" className={styles.button}>
+              Send
+            </button>
           </div>
         </form>
         <div className={styles.art}>

@@ -30,7 +30,7 @@
   justify-content: flex-end;
 }
 
-button {
+.button {
   font-size: 1rem;
   font-style: normal;
   font-weight: 700;
@@ -44,7 +44,7 @@ button {
   padding: 8px;
 }
 
-button:hover {
+.button:hover {
   border: 3px solid $green;
   padding: 6px;
   cursor: pointer;

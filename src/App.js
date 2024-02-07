@@ -4,13 +4,16 @@ import Hero from "./components/Hero";
 import CoreSkills from "./components/CoreSkills";
 import Projects from "./components/Projects";
 import ContactForm from "./components/ContactForm";
+import SkillsAccordion from "./components/SkillsAccordion";
+import React from "react";
 
 function App() {
   return (
     <div className={styles.app}>
       <Header className={styles.header} />
       <Hero className={styles.hero} />
-      <CoreSkills />
+      {/* <CoreSkills /> */}
+      <SkillsAccordion />
       <Projects />
       <ContactForm />
       <Header className={styles.header} />
