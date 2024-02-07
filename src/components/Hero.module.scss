@@ -1,0 +1,141 @@
+@import "../variables.scss";
+.hero {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  background-color: $black;
+  color: $white;
+  font-family: "Space Grotesk", sans-serif;
+  padding-bottom: 1.5rem;
+  .imgContainer {
+    height: 15rem;
+    width: 10rem;
+    background-image: url("../assets/images/greyscale-avatar-removebg-preview.png");
+    background-repeat: no-repeat;
+    background-position: 57% -5%;
+    background-size: 265%;
+    background-color: transparent;
+    border-radius: 2rem;
+    box-shadow: inset 0px -15px 20px $black;
+  }
+
+  .heroText {
+    z-index: 2;
+    text-align: center;
+
+    h1 {
+      font-size: 2.5rem;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 2.5rem; /* 100% */
+      letter-spacing: -0.071rem;
+      margin-bottom: 1.5rem;
+
+      .name {
+        text-decoration: underline;
+        text-decoration-color: $green;
+        text-decoration-thickness: 2px;
+      }
+    }
+
+    p {
+      font-size: 1rem;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 1.625rem; /* 162.5% */
+      margin-bottom: 1.5rem;
+    }
+
+    a {
+      font-size: 1rem;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 1.625rem; /* 162.5% */
+      letter-spacing: 0.14288rem;
+      padding: 8px;
+      text-transform: uppercase;
+      border: 1px solid $green;
+      text-decoration: none;
+      color: $white;
+    }
+
+    a:hover {
+      border: 3px solid $green;
+      cursor: pointer;
+    }
+  }
+
+  .placeholder {
+    height: 0;
+    width: 0;
+  }
+}
+
+//tablet
+@media screen and (min-width: 576px) {
+  .hero {
+    gap: 0;
+    flex-direction: row;
+    max-width: 100%;
+
+    .imgContainer {
+      position: absolute;
+      right: 35px;
+      top: 0px;
+      width: 20rem;
+      height: 37rem;
+      background-position: 57% -5%;
+      background-size: 265%;
+    }
+
+    .heroText {
+      text-align: left;
+
+      h1 {
+        font-size: 4.5rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 4.5rem; /* 100% */
+        letter-spacing: -0.12781rem;
+        margin-bottom: 4rem;
+      }
+
+      p {
+        font-size: 1.125rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 1.75rem; /* 155.556% */
+        margin-bottom: 2rem;
+      }
+    }
+    .placeholder {
+      width: 200rem;
+      height: 37rem;
+    }
+  }
+}
+
+//desktop
+@media screen and (min-width: 768px) {
+  .hero {
+    .imgContainer {
+    }
+
+    .placeholder {
+      width: 200rem;
+      height: 37rem;
+    }
+  }
+}
+
+//large desktop
+@media screen and (min-width: 992px) {
+  .hero {
+    .imgContainer {
+      right: 6rem;
+    }
+  }
+}
