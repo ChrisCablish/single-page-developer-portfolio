@@ -1,0 +1,20 @@
+@import "../variables.scss";
+
+.accordion {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  margin-bottom: 3rem;
+
+  .header {
+    color: $white;
+  }
+
+  .list {
+    text-align: left;
+
+    .item {
+      list-style: none;
+    }
+  }
+}

@@ -9,18 +9,18 @@ function Hero() {
         <div className={styles.imgContainer}></div>
         <div className={styles.heroText}>
           <h1>
-            Hi there! I'm <span className={styles.name}>Chris Cablish</span>.
+            Hi! I'm <span>Chris Cablish</span>.
           </h1>
           <p>
-            Welcome to my portfolio! I'm an aspiring developer, freshly
-            graduated from LaunchCode's part-time web dev course. While my
-            professional experience is just beginning, don't let that fool you.
-            Over the past year, I've honed new skills and completed multiple
-            projects, demonstrating my propensity to adapt quickly to new tools
-            and concepts. This site serves not only as a testament to my
-            abilities but also as a showcase of my potential. I am eager to join
-            a team where I can immediately contribute and grow, leveraging my
-            coding skills to make a meaningful impact from day one.
+            Welcome to my portfolio! I'm an aspiring software developer and a
+            recent alumnus of LaunchCode. While my professional experience is
+            just beginning, I've honed new skills and completed multiple
+            projects in a short period of time, demonstrating my propensity to
+            adapt quickly to new tools and concepts. This site serves not only
+            as a testament to my abilities but also as a showcase of my
+            potential. I am eager to join a team where I can immediately
+            contribute and grow, leveraging my prgramming skills to make a
+            meaningful impact from day one.
           </p>
           <a href="#contact-form">Contact Me</a>
         </div>
