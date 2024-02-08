@@ -36,7 +36,7 @@
 
       .name {
         text-decoration: underline;
-        text-decoration-color: $green;
+        text-decoration-color: $blue;
         text-decoration-thickness: 2px;
       }
     }
@@ -57,13 +57,13 @@
       letter-spacing: 0.14288rem;
       padding: 8px;
       text-transform: uppercase;
-      border: 1px solid $green;
+      border: 1px solid $blue;
       text-decoration: none;
       color: $white;
     }
 
     a:hover {
-      border: 3px solid $green;
+      border: 3px solid $blue;
       cursor: pointer;
     }
   }

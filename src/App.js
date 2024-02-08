@@ -1,7 +1,6 @@
 import styles from "./App.module.scss";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
-import CoreSkills from "./components/CoreSkills";
 import Projects from "./components/Projects";
 import ContactForm from "./components/ContactForm";
 import SkillsAccordion from "./components/SkillsAccordion";
@@ -12,7 +11,6 @@ function App() {
     <div className={styles.app}>
       <Header className={styles.header} />
       <Hero className={styles.hero} />
-      {/* <CoreSkills /> */}
       <SkillsAccordion />
       <Projects />
       <ContactForm />
