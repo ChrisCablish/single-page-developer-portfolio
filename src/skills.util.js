@@ -1,13 +1,16 @@
 const skillCategories = [
   { Languages: ["Javascript", "Java", "C#", "HTML", "CSS"] },
-  { Frameworks: ["React", "Spring Boot", "ASP.NET", "Sass", "Bootstrap"] },
+  { Frameworks: ["React", "Spring Boot", "ASP.NET", "Bootstrap"] },
   {
     "Other Skills": [
-      "Mvc Design",
+      "MySQL",
+      "SQL Server",
+      "MVC Design",
       "Object Relational Mapping",
       "Mobile Responsive Design",
       "AWS",
-      "Git",
+      "Git / Github",
+      "Sass",
     ],
   },
 ];

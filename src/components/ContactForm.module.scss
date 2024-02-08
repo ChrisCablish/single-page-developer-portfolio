@@ -8,6 +8,14 @@
   padding-bottom: 2rem;
 }
 
+.contactSection {
+  margin-bottom: 3rem;
+}
+
+.textSection {
+  color: $white;
+}
+
 .art {
   display: none;
 }
@@ -53,21 +61,13 @@
 .container {
 }
 
-@media screen and (min-width: 576px) {
-  .container {
-    justify-content: center;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-  }
-}
-
 @media screen and (min-width: 992px) {
   .contactSection {
     display: flex;
     flex-direction: row;
     // width: 40%;
     padding-top: 3rem;
+    margin-bottom: 1rem;
   }
 
   .form {
@@ -82,5 +82,14 @@
     display: block;
     position: absolute;
     transform: translate(0%, 140%);
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .container {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
   }
 }
