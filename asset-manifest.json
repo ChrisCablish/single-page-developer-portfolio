@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/single-page-developer-portfolio/static/css/main.d346e705.css",
-    "main.js": "/single-page-developer-portfolio/static/js/main.ad6952c8.js",
+    "main.css": "/single-page-developer-portfolio/static/css/main.e355a95b.css",
+    "main.js": "/single-page-developer-portfolio/static/js/main.34fe029c.js",
     "static/js/787.ea8239e0.chunk.js": "/single-page-developer-portfolio/static/js/787.ea8239e0.chunk.js",
     "static/media/greyscale-avatar-removebg-preview.png": "/single-page-developer-portfolio/static/media/greyscale-avatar-removebg-preview.2318458115af3a8d58d0.png",
     "static/media/dictionary.jpg": "/single-page-developer-portfolio/static/media/dictionary.891bd860ce75a1622cad.jpg",
@@ -15,12 +15,12 @@
     "static/media/icon-linkedin.svg": "/single-page-developer-portfolio/static/media/icon-linkedin.299a1d811c6c10d4964a7018ae43228e.svg",
     "static/media/icon-frontend-mentor.svg": "/single-page-developer-portfolio/static/media/icon-frontend-mentor.4b5f99515736c1a6c8b206e4c73dd048.svg",
     "static/media/pattern-rings.svg": "/single-page-developer-portfolio/static/media/pattern-rings.e62a24d55bee668faa1f245882fad1b7.svg",
-    "main.d346e705.css.map": "/single-page-developer-portfolio/static/css/main.d346e705.css.map",
-    "main.ad6952c8.js.map": "/single-page-developer-portfolio/static/js/main.ad6952c8.js.map",
+    "main.e355a95b.css.map": "/single-page-developer-portfolio/static/css/main.e355a95b.css.map",
+    "main.34fe029c.js.map": "/single-page-developer-portfolio/static/js/main.34fe029c.js.map",
     "787.ea8239e0.chunk.js.map": "/single-page-developer-portfolio/static/js/787.ea8239e0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d346e705.css",
-    "static/js/main.ad6952c8.js"
+    "static/css/main.e355a95b.css",
+    "static/js/main.34fe029c.js"
   ]
 }
