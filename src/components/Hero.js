@@ -12,13 +12,12 @@ function Hero() {
             Hi! I'm <span>Chris Cablish</span>.
           </h1>
           <p>
-            Welcome to my portfolio. I am an aspiring software developer and
-            recent LaunchCode alumnus based in St. Louis. My professional
-            journey in the tech world is just beginning, but in the last 18
-            months, I've quickly honed new skills and completed projects using
-            various languages and frameworks. This site serves as a testament to
-            my ability to work and learn independently. I am eager to join a
-            team where I can add value and make an impact from day one.
+            Welcome to my portfolio. I am a dedicated Web Developer and proud
+            LaunchCode alumnus based in St. Louis. My journey in tech has
+            allowed me to rapidly develop skills and complete projects using
+            various languages and frameworks. This site showcases my ability to
+            work and learn independently. I am eager to bring my expertise to a
+            dynamic team, where I can add value and make an immediate impact.
           </p>
           <a href="#contact-form">Contact Me</a>
         </div>
